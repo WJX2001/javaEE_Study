@@ -16,7 +16,7 @@ public class MyThread extends Thread {
       synchronized (MyThread.class) {
         if (ticket < 100) {
           try {
-            Thread.sleep(100);
+            Thread.sleep(10);
           } catch (InterruptedException e) {
             e.printStackTrace();
           }
